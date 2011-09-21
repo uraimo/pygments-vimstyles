@@ -27,7 +27,9 @@ http://honza.ca/2011/02/how-to-convert-vim-colorschemes-to-pygments-themes
 
 ### Themes
 Wombat: http://www.vim.org/scripts/script.php?script_id=1778
+
 Mustang: http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484
+
 Other VIM themes are part of the Color Sampler Pack http://www.vim.org/scripts/script.php?script_id=625 (originally from vim.sf.net )
 
 ### Example
