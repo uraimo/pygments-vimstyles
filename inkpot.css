@@ -1,4 +1,5 @@
 .highlight .hll { background-color: #ffffcc }
+.highlight .lineno { background-color: #2E2E2E; padding: 3px 2px 3px 2px;}
 .highlight  { background: ##1E1E27; color: #cfbfad; background-color: #1E1E27 }
 .highlight .c { color: #cd8b00; background-color: #1E1E27 } /* Comment */
 .highlight .err { color: #cfbfad; background-color: #1E1E27 } /* Error */
