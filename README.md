@@ -15,6 +15,8 @@ Included until now:
 - rdark
 - slate
 - wombat
+- freya   (Thanks to github.com/underhilllabs)
+- inkpot  (Thanks to github.com/underhilllabs)
 
 [LIGHT BACKGROUND]
 
