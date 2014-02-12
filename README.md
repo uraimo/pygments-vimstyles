@@ -27,7 +27,7 @@ Update 2014:
 [LIGHT BACKGROUND]
 
 - nuvola
-- 
+
 Update 2014:
 - github light
 
@@ -36,6 +36,12 @@ These CSS have been generated using the following script:
 
 - https://github.com/honza/vim2pygments
 - http://honza.ca/2011/02/how-to-convert-vim-colorschemes-to-pygments-themes
+
+Troubleshooting:
+
+Two possible issue you could find while converting your vim color scheme that have an easy workaround:
+- Launching pygmentize you get a python error related to a line that starts with a colon, opening the .py you'll notice the content of the line is duplicated by the previous one, simply delete the line starting with colon and relaunch pygmentize.
+- Some vim schemes define color variables (it's vimscript afterall) and evaluate them using *exec '>color declaration>'* syntax, a dumb way to make the scheme digestible for vim2pygments is to manually replace the variable values and remove the *exec ''* calls.
 
 ### Themes
 - Wombat: http://www.vim.org/scripts/script.php?script_id=1778
