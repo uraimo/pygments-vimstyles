@@ -24,6 +24,9 @@ Update 2014:
 - twilight
 - GRB256
 
+Update 2015:
+- gruvbox (Thanks to github.com/daveyarwood)
+
 [LIGHT BACKGROUND]
 
 - nuvola
@@ -56,6 +59,8 @@ Two possible issue you could find while converting your vim color scheme that ha
 - Twilight by Henning Hasemann: http://leetless.de/
 
 - GRB256 by Gary Bernhardt: http://destroyallsoftware.com/
+
+- Gruvbox by Pavel Pertsev: https://github.com/morhetz/gruvbox
 
 - Other VIM themes are part of the Color Sampler Pack http://www.vim.org/scripts/script.php?script_id=625 (originally from vim.sf.net )
 
