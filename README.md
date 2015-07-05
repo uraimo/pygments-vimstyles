@@ -1,11 +1,24 @@
 # Pygments VIM Styles
 
-A collection of famous VIM theme, fixed and converted to pygments CSS.
+A collection of famous VIM themes, fixed and converted to pygments CSS.
 Feel free to fork and add your favorite theme using the guide below!
 
-Included until now:
+![Screenshot](https://github.com/uraimo/pygments-vimstyles/raw/master/screen.png)
 
-[DARK BACKGROUND]
+Included vim color schemes:
+
+**DARK BACKGROUND**
+
+*Update 2015:*
+- gruvbox (Thanks to [@daveyarwood](https://github.com/daveyarwood))
+
+*Update 2014:*
+- codeschool
+- guardian
+- twilight
+- GRB256
+
+*Update 2013:*
 
 - desert
 - mustang
@@ -15,24 +28,19 @@ Included until now:
 - rdark
 - slate
 - wombat
-- freya   (Thanks to github.com/underhilllabs)
-- inkpot  (Thanks to github.com/underhilllabs)
+- freya   (Thanks to [@underhilllabs](https://github.com/underhilllabs))
+- inkpot  (Thanks to [@underhilllabs](https://github.com/underhilllabs))
 
-Update 2014:
-- codeschool
-- guardian
-- twilight
-- GRB256
 
-Update 2015:
-- gruvbox (Thanks to github.com/daveyarwood)
+**LIGHT BACKGROUND**
 
-[LIGHT BACKGROUND]
+*Update 2014:*
+- github light
+
+*Update 2013:*
 
 - nuvola
 
-Update 2014:
-- github light
 
 ### Convert your VIM styles
 These CSS have been generated using the following script:
@@ -42,9 +50,9 @@ These CSS have been generated using the following script:
 
 Troubleshooting:
 
-Two possible issue you could find while converting your vim color scheme that have an easy workaround:
-- Launching pygmentize you get a python error related to a line that starts with a colon, opening the .py you'll notice the content of the line is duplicated by the previous one, simply delete the line starting with colon and relaunch pygmentize.
-- Some vim schemes define color variables (it's vimscript afterall) and evaluate them using *exec '>color declaration>'* syntax, a dumb way to make the scheme digestible for vim2pygments is to manually replace the variable values and remove the *exec ''* calls.
+Two possible issues you may encounter when converting your vim color scheme but that have an easy workaround:
+- Launching pygmentize you could get a Python error related to a line that starts with a colon. Opening the .py you'll notice that the content of the line is duplicated by the previous one, simply delete the line starting with colon and relaunch pygmentize.
+- Some vim schemes define color variables (it's vimscript afterall) and evaluate them using *exec '>color declaration>'* syntax, a dumb way to make the scheme digestible for vim2pygments is to manually replace the variables with their values and remove the *exec ''* calls. A bit of manual labour is involved but it works.
 
 ### Themes
 - Wombat: http://www.vim.org/scripts/script.php?script_id=1778
@@ -63,7 +71,3 @@ Two possible issue you could find while converting your vim color scheme that ha
 - Gruvbox by Pavel Pertsev: https://github.com/morhetz/gruvbox
 
 - Other VIM themes are part of the Color Sampler Pack http://www.vim.org/scripts/script.php?script_id=625 (originally from vim.sf.net )
-
-### Example
-
-![Screenshot](https://github.com/uraimo/pygments-vimstyles/raw/master/screen.png)
