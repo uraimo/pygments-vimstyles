@@ -1,5 +1,11 @@
 # Pygments VIM Styles
 
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)
+[![Forks](https://img.shields.io/github/forks/uraimo/pygments-vimstyles.svg?style=flat)](https://github.com/uraimo/pygments-vimstyles/network)
+[![Stars](https://img.shields.io/github/stars/uraimo/pygments-vimstyles.svg?style=flat)](https://github.com/uraimo/pygments-vimstyles/stargazers)
+
+
+
 A collection of famous VIM themes, fixed and converted to pygments CSS.
 Feel free to fork and add your favorite theme using the guide below!
 
